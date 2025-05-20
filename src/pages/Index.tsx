@@ -79,7 +79,7 @@ const sectionsData: SectionData[] = [
     id: 3,
     topVideoSrc: "/assets/3t.mp4", 
     bottomVideoSrc: "/assets/3b.mp4", 
-    buttonTitle: "Chapter 3 : Techie's Artistic Expression",
+    buttonTitle: "Chapter 3 : My Expression",
     discoverButtonText: "My Tech Creations",
     discoverCardTitle: "Personal & AI Projects",
     discoverCardDescription: "A showcase of my creations and explorations in technology.",
@@ -105,7 +105,7 @@ const sectionsData: SectionData[] = [
     id: 4,
     topVideoSrc: "/assets/4t.mp4", 
     bottomVideoSrc: "/assets/4b.mp4", 
-    buttonTitle: "Chapter 4 : My Current Bulding Blocks",
+    buttonTitle: "Chapter 4 : Bulding Blocks",
     discoverButtonText: "My Skills",
     discoverCardTitle: "Technical Skillset",
     discoverCardDescription: "My proficiency in various programming languages, frameworks, and tools.",
@@ -202,7 +202,7 @@ const Index = () => {
                   "animate-title-scale-up" // MODIFIED: Use the new scale-up animation class
                 )}
                 className=""
-                encryptedClassName="opacity-70 text-white"
+                encryptedClassName="opacity-70 text-black"
               />
             </div>
           )}

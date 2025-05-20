@@ -215,13 +215,12 @@ const HorizontalScroller: React.FC<HorizontalScrollerProps> = ({
                   />
                 </div>
               )}
-
               {/* Content Overlay Area - Discover Button (triggers the modal) */}
               <div className="absolute inset-0 flex flex-col items-center justify-center z-20">
                 {discoverButtonLabel && !isDetailCardOpen && (
                   <Button
                     onClick={() => handleOpenDetailCard(section)}
-                    className="text-md sm:text-lg font-semibold text-white bg-black/50 px-6 py-2.5 shadow-xl backdrop-blur-md animate-fade-in hover:bg-black/70 transition-colors duration-200"
+                    className="text-md sm:text-lg font-semibold text-white bg-black/50 px-6 rounded-full py-2.5 shadow-xl backdrop-blur-md animate-fade-in hover:bg-black/70 transition-colors duration-200"
                   >
                     {discoverButtonLabel}
                   </Button>

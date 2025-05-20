@@ -41,7 +41,7 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({ onComplete }) => {
         `}
       >
         <span className="bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 bg-clip-text text-transparent">
-          Hello
+          Hello, Welcome To Creator Enji's Portfolio
         </span>
       </div>
     </div>
